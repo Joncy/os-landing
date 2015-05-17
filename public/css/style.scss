@@ -1,0 +1,99 @@
+.anHidden{
+     opacity:0;
+}
+.anVisible{
+     opacity:1;
+}
+
+#navbar {
+	height: 64px;
+	display: none;
+}
+
+#landing {
+	background: url("../img/landing-db.jpg") no-repeat;
+	background-size: 100%;
+	height: 644px;
+	
+	a:hover {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	img {
+		height: 100%; 
+		margin-left: 15%; 
+		float: left;
+	}
+
+	section {
+		float: left; 
+		margin-top: 5%; 
+		margin-left: 20%;
+	}
+
+	h1,h2 {
+		color: white;
+	}
+
+	h1 {
+		font-size: 6em;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 2.8em;
+		text-align: center;
+		opacity: 0.8;
+	}
+
+	button {
+		margin-top: 17%;
+		padding: 16px 16px;
+	}
+}
+
+#about {
+	background-color: #F2F2F3;
+	.feature {
+		margin-top: 10%;
+		text-align: center;
+		img, ul {
+			float: right;
+			li {
+				text-align: left;
+				margin-top: 4%;
+				margin-left: 12%;
+			}
+			li:first {
+				margin-top: 8%;
+			}
+		}
+
+			ul {
+				width: 60%;
+			}
+			#rpi-logo {
+				float: none;
+			}
+	}
+}
+
+#dev-story {
+	background-color: #e65656;
+	height: 644px;
+	#video {
+		height: 550px;
+		border: solid 2px black;
+		margin-top: 2%;
+	}
+}
+
+#last-call {
+	height: 322px;
+}
+
+#org {
+	height: 166px;
+	background-color: #333333;
+}
